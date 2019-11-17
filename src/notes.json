@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "author": "John Doe",
+        "title": "Hello World",
+        "body": "Try Reactjs is awesome. Can't wait to learn more",
+        "status": true,
+        "date": "1 May 2019"
+    },
+    {
+        "id": 2,
+        "author": "Mark Williams",
+        "title": "Setup React",
+        "body": "Setting up react is easy. Learn more about it!",
+        "status": false,
+        "date": "8 Jan 2019"
+    },
+    {
+        "id": 3,
+        "author": "Sara Smith",
+        "title": "A React",
+        "body": "Setting up react is easy. Learn more about it!",
+        "status": true,
+        "date": "22 Mar 2019"
+    },
+    {
+        "id": 4,
+        "author": "John Doe",
+        "title": "Marko World",
+        "body": "Try Reactjs is awesome. Can't wait to learn more",
+        "status": false,
+        "date": "12 Aug 2019"
+    },
+    {
+        "id": 5,
+        "author": "John Doe",
+        "title": "Marko World",
+        "body": "Try Reactjs is awesome. Can't wait to learn more",
+        "status": true,
+        "date": "29 Sep 2019"
+    }
+]

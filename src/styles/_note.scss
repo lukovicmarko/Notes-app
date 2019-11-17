@@ -1,0 +1,42 @@
+.note{
+    padding: 1rem 2rem;
+    background-color: $white-color;
+    box-shadow: 0 0.5rem 2rem rgba(0,0,0,0.1);
+    
+    &__delete{   
+        cursor: pointer;
+        color:$red-color-light;
+        &:hover{
+            color:$red-color;
+        }
+    }
+
+    &__profile{
+        color: $dark-blue;
+    }    
+    
+    &__title{      
+        &::before{
+            content: "•"; 
+            color: $yellow-color; 
+            font-size: 1.5rem;
+            font-weight: bold; 
+            display: inline-block;
+            width: 1.3rem;
+            margin-left: -1rem;   
+             
+        }      
+    }   
+    &__status{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+    }       
+    &__star-outer{
+        cursor: pointer;
+        color: $red-color-light;
+        &:hover{
+            color: $red-color;
+        }
+    }
+}

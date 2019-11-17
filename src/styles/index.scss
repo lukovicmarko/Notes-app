@@ -1,0 +1,35 @@
+@import 'variables';
+@import 'header';
+@import 'search';
+@import 'sort';
+@import 'note';
+@import 'addNote';
+@import 'transition';
+
+body{
+    background: #f3f5f7 !important;
+}
+
+input,textarea,select{
+    &:focus{
+        box-shadow: none !important;
+        outline: none !important; 
+    }
+}
+
+.form__add-note{
+    border: 1px solid $dark-purple;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background: transparent;
+    color: $dark-purple;   
+    margin-bottom: 20px;
+    &:hover{
+        border: 1px solid #7D26CD;
+        color: #7D26CD;   
+    }
+    &:focus{
+        outline: none;
+        box-shadow: none;
+    }
+}

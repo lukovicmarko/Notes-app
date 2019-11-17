@@ -1,0 +1,29 @@
+.search{       
+    //box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    &__input{
+        background: $white-color;       
+        border: none;
+        padding: .7rem 2rem;
+        border-radius: 100px;      
+        width:100%;
+        margin-right: -3.25rem;
+        &:focus{
+            outline: none;           
+        }
+    }
+    &__button{
+        border:none;
+        background: $white-color;
+        &:focus{
+            outline:none;           
+        }
+        &:hover{
+            cursor: text    
+        }
+    }
+    &__icon{      
+        color:$light-purple
+    }
+}
+
+
